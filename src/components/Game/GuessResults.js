@@ -5,7 +5,6 @@ import { NUM_OF_GUESSES_ALLOWED } from '../../constants';
 
 function GuessResults({ guesses }) {
   let emptySlots = NUM_OF_GUESSES_ALLOWED - guesses.length;
-  console.log(guesses.length);
   return (
     <div className='guess-results'>
       {guesses.map(({ id, label }) => (
