@@ -17,6 +17,7 @@ function GuessInput({ guesses, handleGuess }) {
         id='guess-input'
         type='text'
         pattern='[A-Za-z]{5}'
+        title='Please enter a 5-letter word.'
         value={guess}
         onChange={(event) => {
           let input = event.target.value;
@@ -26,4 +27,5 @@ function GuessInput({ guesses, handleGuess }) {
     </form>
   );
 }
+
 export default GuessInput;

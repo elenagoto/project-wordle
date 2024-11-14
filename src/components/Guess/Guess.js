@@ -22,5 +22,4 @@ function Guess({ word = null }) {
     </>
   );
 }
-
 export default Guess;
