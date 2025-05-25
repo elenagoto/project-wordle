@@ -298,3 +298,19 @@ _HINT:_ This will require moving the `answer` into state. You'll want to do the 
 
 - A "Restart Game" button is shown at the end of the game. You can put this button in the `GameOverBanner`, or wherever else you'd like!
 - Clicking the button should select a new correct word and reset all other state.
+
+
+
+## Docker container
+
+### Commands
+
+```bash
+# To start the dev env
+docker-compose up --build
+````
+
+```bash
+# to install a new package
+docker-compose run app npm install "some-package"
+```
